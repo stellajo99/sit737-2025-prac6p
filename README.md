@@ -50,6 +50,7 @@ kubectl get services
 http://localhost:30080
 ```
 Example: http://localhost:30080/divide?num1=20&num2=4
+
 You should see the application running (e.g., text output or UI).
 
 ## Screenshots
