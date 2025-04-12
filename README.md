@@ -3,8 +3,20 @@
 ## Docker Image
 [https://hub.docker.com/r/stellajo99/sit737-2025-prac5p](https://hub.docker.com/r/stellajo99/sit737-2025-prac5p)
 
-## Kubernetes Setup
-Using Docker Desktop with Kubernetes enabled.
+## Kubernetes Setup (Docker Desktop)
+
+1. Open Docker Desktop.
+2. Go to Settings > Kubernetes.
+3. Check "Enable Kubernetes" and click "Apply & Restart".
+4. Wait until the status bar shows "Kubernetes is running".
+
+### Verify cluster is active:
+
+```bash
+kubectl cluster-info
+kubectl config current-context
+kubectl get nodes
+```
 
 ### File Descriptions
 | File / Folder | Description |
